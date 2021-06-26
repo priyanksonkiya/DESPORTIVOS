@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Badminton">
+
+    <ImageView
+        android:id="@+id/sportimg"
+        android:layout_width="156dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/badminton" />
+
+
+    <ImageView
+        android:id="@+id/fixtures"
+        android:layout_width="190dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:cropToPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportimg"
+        app:srcCompat="@drawable/fixture" />
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="178dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fixtures"
+        app:layout_constraintTop_toBottomOf="@+id/sportimg"
+        app:srcCompat="@drawable/result" />
+
+    <ImageButton
+        android:id="@+id/register"
+        android:layout_width="365dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="424dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/register" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="396dp"
+        android:layout_height="361dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:autoLink="all"
+        android:ems="10"
+        android:enabled="true"
+        android:focusable="true"
+        android:gravity="start|top"
+        android:longClickable="true"
+        android:scrollbars="vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF0000"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FF0000"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fixtures" />
+</androidx.constraintlayout.widget.ConstraintLayout>

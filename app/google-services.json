@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "53327253200",
+    "firebase_url": "https://desportivos-55350.firebaseio.com",
+    "project_id": "desportivos-55350",
+    "storage_bucket": "desportivos-55350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53327253200:android:a44051dffc3412883458d5",
+        "android_client_info": {
+          "package_name": "com.example.desportivos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53327253200-96m2rvs98n0ake51pf16tc6vikk8p04q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.desportivos",
+            "certificate_hash": "8da1a7bf4042553331cedb95a4118050179c57ac"
+          }
+        },
+        {
+          "client_id": "53327253200-mk5oml9cg8dfk9bn0nj69frh0l6ofg7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC56_mnJivFHshoxy0gq5rX6amOZwnHJPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53327253200-mk5oml9cg8dfk9bn0nj69frh0l6ofg7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
